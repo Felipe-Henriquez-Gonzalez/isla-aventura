@@ -1,5 +1,5 @@
 [web]
-servidor01 ansible_host=localhost
+servidor01 
 
 [web:vars]
 ansible_connection=ssh
