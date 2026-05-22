@@ -1,0 +1,8 @@
+[web]
+servidor01
+
+[base_datos]
+servidor02
+
+[windows]
+servidor03
