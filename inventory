@@ -1,8 +1,24 @@
 [web]
 servidor01
 
+[web:vars]
+ansible_connection=ssh
+ansible_port=22
+
 [base_datos]
 servidor02
 
+[base_datos:vars]
+ansible_connection=ssh
+ansible_port=22
+
 [windows]
 servidor03
+
+[windows:vars]
+ansible_connection=winrm
+ansible_port=5985
+ansible_winrm_transport=ntlm
+
+[all:vars]
+entorno=produccion
