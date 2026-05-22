@@ -1,0 +1,7 @@
+---
+- name: Mensaje de bienvenida
+  hosts: localhost
+  tasks:
+    - name: Mostrar mensaje
+      ansible.builtin.debug:
+        msg: Bienvenidos a Isla Aventura Ansible Automation Platform
